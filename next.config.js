@@ -1,10 +1,24 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
+  output: 'export',
   experimental: {
-    output: "export",
     appDir: true,
     styledComponents: true,
   },
 }
-
+ 
 module.exports = nextConfig
+
+
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+  // experimental: {
+  //   output: "export",
+  //   appDir: true,
+  //   styledComponents: true,
+  // },
+// }
+
+// module.exports = nextConfig
