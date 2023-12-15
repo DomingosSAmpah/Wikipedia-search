@@ -1,0 +1,88 @@
+.navbar{
+    background-color: #313131;
+    background: transparent !important;
+    /* background: #fff; */
+    grid-area: nav;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+    position: absolute;
+    /* border-bottom: 1px solid lightgray; */
+    /* z-index: 2; */
+}
+.nav_icon{
+    display: none;
+}
+.nav_icon > i{
+    font-size: 26px;
+    color: #a5aaad;
+}
+.navbar_left > a{
+    margin-right: 5px;
+    text-decoration: none;
+    color: #313131;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar_left > a .ico{
+    font-size: 25px;
+    font-weight: 700;
+}
+.navbar_left .active_link{
+    color: #313131;
+    /* border-bottom: 3px solid #313131; */
+    /* padding-bottom: 12px; */
+}
+.navbar_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_right > a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+.navbar_right > a > i{
+    color: #313131;
+    font-size: 25px;
+    /* border-radius: 50px; */
+    /* background: #fff; */
+    /* box-shadow: 2px 2px 4px #d9d9d9, -2px -2px 4px #fff;
+    padding: 6px; */
+}
+/* .navbar_right > a:hover > i{   
+    background: #a5aaad;
+    background-color: #313131;
+    padding: 6px;
+    border-radius: 10px;
+} */
+@media only screen and (max-width: 978px){
+    .nav_icon{
+        display: flex;
+    }
+}
+@media only screen and (max-width: 768px){
+    .navbar_left{
+        display: none;
+    }
+}
+@media only screen and (max-width: 480px){
+    .navbar_left{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
